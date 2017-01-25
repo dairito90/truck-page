@@ -1,16 +1,22 @@
 .main-page {
     background-image: url('../img/silver-truck.jpg');
     background-size: cover;
+    background-position: center top;
     min-height: 100vh;
     position: relative;
+    padding: 10px;
+}
+
+.main-page .col-md-4 {
+    text-align: center;
+    padding:100px;
+
 }
 
 img {
-    width: 50px;
-    height: 50px;
+    width: 200px;
+    height: 150px;
 }
-
-
 
 input[type=text] {
     border: none;
@@ -22,10 +28,109 @@ input[type=email] {
     border: none;
     border-bottom: 1px solid black;
     margin-bottom: 20px;
+}
 
+input[type=submit] {
+    margin-bottom: 40px;
+}
+
+.navbar {
+    margin-bottom: 0;
+}
+
+.brakes-image, .ac, .electric, .main {
+    transition: all .3s;
+}
+
+.brakes-image:hover, .ac:hover, .electric:hover, .main:hover {
+    transform: scale(1.2);
+}
+
+h1{
+    transition: all .3s;
+}
+
+h1:hover{
+    transform: scale(1.2);
+}
+
+h2{
+    transition: all .3s;
+}
+
+h2:hover{
+    transform: scale(1.2);
 }
 
 
-input[type=submit]{
-  margin-bottom: 40px;
+h3{
+    transition: all .3s;
+}
+
+h3:hover{
+    transform: scale(1.2);
+}
+
+#contact {
+    background-color: #D3D3D3;
+}
+#services{
+    background-color: #FF7F50;
+}
+
+.phone {
+    width: 40px;
+    height: 40px;
+}
+
+.nav a {
+    font-size: 1.8em;
+    margin-top: 10px;
+}
+
+.navbar-brand {
+    margin-top: 10px;
+    font-size: 2.5em;
+}
+
+
+
+.main-page{
+    font-size: 100px;
+    text-align:justify;
+    font-family: cursive;
+}
+
+h2{
+    padding-bottom: : 40px;
+    font-size: 50px;
+}
+
+
+h1{
+    padding-top: 20px;
+    padding-right: 200px;
+}
+
+h3{
+    font-size: 30px;
+    padding-left: 200px;
+}
+
+
+h4{
+font-size: 40px;
+
+}
+
+h5{
+    font-size: 30px;
+}
+
+
+p{
+color:black;
+font-size: 20px;
+font-family:cursive;
+
 }
