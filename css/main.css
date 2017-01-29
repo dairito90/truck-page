@@ -11,10 +11,9 @@ body {
     padding: 10px;
 }
 
-.main-page .col-md-4 {
+.main-page .col-md-4:first-of-type {
     text-align: center;
-    padding:100px;
-
+    padding-left:100px;
 }
 
 img {
@@ -50,36 +49,13 @@ input[type=submit] {
     transform: scale(1.2);
 }
 
-h1{
-    transition: all .3s;
-}
 
-h1:hover{
-    transform: scale(1.2);
-}
-
-h2{
-    transition: all .3s;
-}
-
-h2:hover{
-    transform: scale(1.2);
-}
-
-
-h3{
-    transition: all .3s;
-}
-
-h3:hover{
-    transform: scale(1.2);
-}
 
 #contact {
     background-color: #D3D3D3;
 }
 #services{
-    background-color: #FF7F50;
+    background-color: #D3D3D3;
 }
 
 .phone {
@@ -105,30 +81,9 @@ h3:hover{
     font-family: cursive;
 }
 
-h2{
-    padding-bottom: : 40px;
-    font-size: 50px;
-}
-
-
-h1{
-    padding-top: 20px;
-    padding-right: 200px;
-}
-
-h3{
-    font-size: 30px;
-    padding-left: 200px;
-}
-
-
-h4{
-font-size: 40px;
-
-}
 
 h5{
-    font-size: 30px;
+    font-size: 20px;
 }
 
 
@@ -136,34 +91,37 @@ p{
 color:black;
 font-size: 20px;
 font-family:cursive;
-
+text-align: center;
+padding-bottom: 10px;
 }
 
-.main-page h1,
-.main-page h2,
-.main-page h3 {
-    color: #FF7F50;
-    text-shadow: 1px 1px 4px #000;
-}
+
 
 @media all and (max-width: 768px) {
     .navbar-brand {
         font-size: 2rem;
     }
 
-    .main-page h1,
-    .main-page h2,
-    .main-page h3 {
-        font-size: 1.5rem;
-        padding: 0;
-        text-shadow: 1px 1px 1px #000;
-    }
+
 
     .main-page .col-md-4 {
         padding: 10px;
     }
+}
 
-    #contact h4 {
-        font-size: 2rem;
-    }
+.about {
+    background-color: #D3D3D3;
+    padding-top: 10px;
+}
+
+
+.about-title {
+    text-align: center;
+    margin: 0;
+    padding: 15px;
+}
+
+.about-p {
+    margin: 0;
+    padding: 15px;
 }
