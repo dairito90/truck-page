@@ -110,7 +110,7 @@ padding-bottom: 10px;
 }
 
 .about {
-    background-color: #D3D3D3;
+    background-color: #C0C0C0;
     padding-top: 10px;
 }
 
@@ -124,4 +124,12 @@ padding-bottom: 10px;
 .about-p {
     margin: 0;
     padding: 15px;
+}
+
+h4 {
+    margin-bottom: <x> px;
+}
+
+div {
+    margin-bottom: <y>px;
 }
